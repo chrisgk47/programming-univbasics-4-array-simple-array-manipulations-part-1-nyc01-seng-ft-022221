@@ -6,8 +6,8 @@ end
 
 def using_unshift(boroughs_in_nyc, new_neighborhood)
   bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
-  new_neighborhood = "Staten Island"
-  bouroughs_in_nyc.unshift(new_neighborhood)
+  @new_neighborhood = "Staten Island"
+  @bouroughs_in_nyc.unshift(new_neighborhood)
 end
 
 def using_pop(continents)
